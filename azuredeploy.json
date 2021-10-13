@@ -20,8 +20,8 @@
   },
   "resources": [
     {
-      "type": "Microsoft.Authorization/roleAssignments",
-      "apiVersion": "2020-04-01-preview",
+      "type": "Microsoft.Authorization/policyassignments",
+      "apiVersion": "2020-09-01",
       "name": "[variables('roleAssignmentName')]",
       "properties": {
         "roleDefinitionId": "[resourceId('Microsoft.Authorization/roleDefinitions', parameters('roleDefinitionId'))]",
