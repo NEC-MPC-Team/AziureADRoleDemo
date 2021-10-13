@@ -20,4 +20,5 @@ jobs:
       templateLocation: 'Linked artifact'
       csmFile: 'azuredeploy.json'
       csmParametersFile: 'azuredeploy.parameters.json'
-      deploymentMode: 'Incremental'
+      deploymentMode: 'Validation only'
+
